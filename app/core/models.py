@@ -14,8 +14,8 @@ class UserManager(BaseUserManager):
         """Creates and saves a new user
 
         Args:
-            email ([type]): [description]
-            password (, optional): [description]. Defaults to None.
+            email (object): email object
+            password (object, optional): password object. Defaults to None.
 
         Returns:
             user (object): contains user data
